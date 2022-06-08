@@ -1,0 +1,70 @@
+Base:
+    model_id: usad
+    normalize: "minmax"
+
+usad_SMD:
+    dataset_id: SMD
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+usad_ASD:
+    dataset_id: ASD
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+usad_SWAT:
+    dataset_id: SWAT
+    batch_size: 256
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+usad_WADI:
+    dataset_id: WADI
+    batch_size: 256
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+usad_SMAP:
+    dataset_id: SMAP
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+usad_MSL:
+    dataset_id: MSL
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    num_workers: 1
+    device: 0  # -1 for cpu, 0 for cuda:0stride: 5
+    nb_epoch: 10
+    lr: 0.001
+    hidden_size: 64
+    
+    
+    
+    
+    
+    

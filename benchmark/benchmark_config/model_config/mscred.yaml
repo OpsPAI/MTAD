@@ -1,0 +1,64 @@
+Base:
+    model_id: mscred
+    normalize: "minmax"
+
+mscred_SMD:
+    dataset_id: SMD
+    window_size: 100
+    stride: 1
+    batch_size: 64
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002
+mscred_ASD:
+    dataset_id: ASD
+    window_size: 100
+    stride: 1
+    batch_size: 64
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002
+mscred_SWAT:
+    dataset_id: SWAT
+    window_size: 100
+    stride: 1
+    batch_size: 64
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002
+mscred_WADI:
+    dataset_id: WADI
+    window_size: 100
+    stride: 1
+    batch_size: 32
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002
+mscred_SMAP:
+    dataset_id: SMAP
+    window_size: 100
+    stride: 1
+    batch_size: 64
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002
+mscred_MSL:
+    dataset_id: MSL
+    window_size: 100
+    stride: 1
+    batch_size: 64
+    nb_epoch: 3
+    device: 1
+    step_max: 5
+    gap_time: 10
+    lr: 0.0002 

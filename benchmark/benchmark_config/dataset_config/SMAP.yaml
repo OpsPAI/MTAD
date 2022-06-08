@@ -1,0 +1,97 @@
+Base:
+    dataset: "smap"
+    data_root: ../data/SMAP/
+    model_root: "./benchmark_exp_details"
+    benchmark_dir: "./benchmark_results"
+    train_postfix: "train.pkl"
+    test_postfix: "test.pkl"
+    test_label_postfix: "test_label.pkl"
+    dim: 25
+    nrows: null
+    entities:
+        [
+        "P-1",
+        "S-1",
+        "E-1",
+        "E-2",
+        "E-3",
+        "E-4",
+        "E-5",
+        "E-6",
+        "E-7",
+        "E-8",
+        "E-9",
+        "E-10",
+        "E-11",
+        "E-12",
+        "E-13",
+        "A-1",
+        "D-1",
+        "P-2",
+        "P-3",
+        "D-2",
+        "D-3",
+        "D-4",
+        "A-2",
+        "A-3",
+        "A-4",
+        "G-1",
+        "G-2",
+        "D-5",
+        "D-6",
+        "D-7",
+        "F-1",
+        "P-4",
+        "G-3",
+        "T-1",
+        "T-2",
+        "D-8",
+        "D-9",
+        "F-2",
+        "G-4",
+        "T-3",
+        "D-11",
+        # "D-12",
+        "B-1",
+        "G-6",
+        "G-7",
+        "P-7",
+        "R-1",
+        "A-5",
+        "A-6",
+        "A-7",
+        "D-13",
+        "P-2",
+        "A-8",
+        "A-9",
+        "F-3",
+    ]
+
+SMAP_x2_valid:
+    valid_ratio: 0
+    nrows: 2000
+    entities: ["P-1","S-1"]
+
+SMAP_test:
+    valid_ratio: 0
+    entities:       [  "B-1",
+        "G-6",
+        "G-7",
+        "P-7",
+        "R-1",
+        "A-5",
+        "A-6",
+        "A-7",
+        "D-13",
+        "P-2",
+        "A-8",
+        "A-9",
+        "F-3",
+    ]
+
+SMAP_x2_full:
+    valid_ratio: 0
+    entities: ["D-13"]
+
+SMAP:
+    valid_ratio: 0

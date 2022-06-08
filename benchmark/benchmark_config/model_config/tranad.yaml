@@ -1,0 +1,64 @@
+Base:
+    model_id: tranad
+    normalize: "minmax"
+
+tranad_SMD:
+    dataset_id: SMD
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64
+tranad_ASD:
+    dataset_id: ASD
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64
+tranad_SWAT:
+    dataset_id: SWAT
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64
+tranad_WADI:
+    dataset_id: WADI
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64
+tranad_SMAP:
+    dataset_id: SMAP
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64
+tranad_MSL:
+    dataset_id: MSL
+    num_workers: 1
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    device: 3  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 64

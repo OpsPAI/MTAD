@@ -1,0 +1,40 @@
+Base:
+    dataset: "asd"
+    data_root: ../data/ASD/
+    model_root: "./benchmark_exp_details"
+    benchmark_dir: "./benchmark_results"
+    train_postfix: "train.pkl"
+    test_postfix: "test.pkl"
+    test_label_postfix: "test_label.pkl"
+    dim: 19
+    nrows: null
+    entities:
+        - omi-1
+        - omi-2
+        - omi-3
+        - omi-4
+        - omi-5
+        - omi-6
+        - omi-7
+        - omi-8
+        - omi-9
+        - omi-10
+        - omi-11
+        - omi-12
+
+ASD_x2_valid:
+    valid_ratio: 0
+    nrows: 2000
+    entities: ["omi-1", "omi-2"]
+
+ASD_x2:
+    valid_ratio: 0
+    nrows: 2000
+    entities: ["omi-1", "omi-2"]
+
+ASD_x2_full:
+    valid_ratio: 0
+    entities: ["omi-1", "omi-2"]
+
+ASD:
+    valid_ratio: 0

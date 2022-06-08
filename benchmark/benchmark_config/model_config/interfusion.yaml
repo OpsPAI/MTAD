@@ -1,0 +1,72 @@
+Base:
+    model_id: interfusion
+    normalize: "minmax"
+
+
+interfusion_SMD:
+    dataset_id: SMD
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+interfusion_ASD:
+    dataset_id: ASD
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+interfusion_SWAT:
+    dataset_id: SWAT
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+interfusion_WADI:
+    dataset_id: WADI
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+interfusion_SMAP:
+    dataset_id: SMAP
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+interfusion_MSL:
+    dataset_id: MSL
+    batch_size: 128
+    window_size: 100
+    stride: 1
+    patience: 5
+    lr: 0.001
+    num_workers: 1
+    pretrain_max_epoch: 20
+    nb_epoch: 20
+    device: 0  # -1 for cpu, 0 for cuda:0
+

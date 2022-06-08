@@ -1,0 +1,27 @@
+Base:
+    model_id: iforest
+    normalize: "minmax"
+
+iforest_SMD:
+    dataset_id: SMD
+    n_estimators: 100
+
+iforest_MSL:
+    dataset_id: MSL
+    n_estimators: 100
+
+iforest_SMAP:
+    dataset_id: SMAP
+    n_estimators: 100
+
+iforest_SWAT:
+    dataset_id: SWAT
+    n_estimators: 100
+
+iforest_WADI:
+    dataset_id: WADI
+    n_estimators: 100
+
+iforest_ASD:
+    dataset_id: ASD
+    n_estimators: 100

@@ -1,0 +1,54 @@
+Base:
+    dataset: "msl"
+    data_root: ../data/MSL/
+    model_root: "./benchmark_exp_details"
+    benchmark_dir: "./benchmark_results"
+    train_postfix: "train.pkl"
+    test_postfix: "test.pkl"
+    test_label_postfix: "test_label.pkl"
+    dim: 55
+    nrows: null
+    entities:
+        ["M-6",
+        "M-1",
+        "M-2",
+        "S-2",
+        "P-10",
+        "T-4",
+        "T-5",
+        "F-7",
+        "M-3",
+        "M-4",
+        "M-5",
+        "P-15",
+        "C-1",
+        "C-2",
+        "T-12",
+        "T-13",
+        "F-4",
+        "F-5",
+        "D-14",
+        "T-9",
+        "P-14",
+        "T-8",
+        "P-11",
+        "D-15",
+        "D-16",
+        "M-7",
+        "F-8"]
+
+MSL_x2_valid:
+    valid_ratio: 0
+    nrows: 2000
+    entities: ["M-6", "M-1"]
+
+MSL_x2:
+    valid_ratio: 0
+    entities: ["M-6", "M-1"]
+
+MSL_usad_test:
+    valid_ratio: 0
+    entities: ["T-9"]
+
+MSL:
+    valid_ratio: 0

@@ -1,0 +1,10 @@
+# pip install -r requirements.txt
+joblib == 1.0.0
+jupyter == 1.0.0
+keras == 2.3.1
+numpy == 1.19.2
+pandas == 1.1.5
+scikit-learn == 0.23.2
+scipy == 1.5.2
+spectrum == 0.7.5
+tensorflow == 2.1.0

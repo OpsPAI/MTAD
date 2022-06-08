@@ -1,0 +1,105 @@
+Base:
+    model_id: lstm
+    normalize: "minmax"
+
+lstm_SMD:
+    dataset_id: SMD
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4
+
+
+lstm_ASD:
+    dataset_id: ASD
+    normalize: "minmax"
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4
+
+lstm_SWAT:
+    dataset_id: SWAT
+    normalize: "minmax"
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4
+
+lstm_WADI:
+    dataset_id: WADI
+    normalize: "minmax"
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4
+
+lstm_SMAP:
+    dataset_id: SMAP
+    normalize: "minmax"
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4
+
+lstm_MSL:
+    dataset_id: MSL
+    normalize: "minmax"
+    batch_size: 1024
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    patience: 5
+    device: 0  # -1 for cpu, 0 for cuda:0
+    lr: 0.001
+    hidden_size: 256
+    num_layers: 2
+    dropout: 0
+    prediction_length: 1
+    prediction_dims: []
+    num_workers: 4

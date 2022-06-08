@@ -1,0 +1,29 @@
+Base:
+    model_id: LODA
+    normalize: "minmax"
+
+loda_SMD:
+    dataset_id: SMD
+    n_bins: 10
+    n_random_cuts: 100
+loda_ASD:
+    dataset_id: ASD
+    n_bins: 10
+    n_random_cuts: 100
+loda_SWAT:
+    dataset_id: SWAT
+    n_bins: 10
+    n_random_cuts: 100
+loda_WADI:
+    dataset_id: WADI
+    n_bins: 10
+    n_random_cuts: 100
+loda_SMAP:
+    dataset_id: SMAP
+    n_bins: 10
+    n_random_cuts: 100
+loda_MSL:
+    dataset_id: MSL
+    n_bins: 10
+    n_random_cuts: 100
+    

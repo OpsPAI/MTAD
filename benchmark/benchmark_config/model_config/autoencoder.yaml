@@ -1,0 +1,51 @@
+Base:
+    model_id: AutoEncoder
+    normalize: "minmax"
+
+autoencoder_SMD:
+    dataset_id: SMD
+    hidden_neurons: [64, 32, 32, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2
+autoencoder_ASD:
+    dataset_id: ASD
+    normalize: "minmax"
+    hidden_neurons: [64, 16, 16, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2
+autoencoder_SWAT:
+    dataset_id: SWAT
+    normalize: "minmax"
+    hidden_neurons: [64, 32, 32, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2
+autoencoder_WADI:
+    dataset_id: WADI
+    normalize: "minmax"
+    hidden_neurons: [64, 32, 32, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2
+autoencoder_SMAP:
+    dataset_id: SMAP
+    normalize: "minmax"
+    hidden_neurons: [64, 16, 16, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2
+autoencoder_MSL:
+    dataset_id: MSL
+    normalize: "minmax"
+    hidden_neurons: [64, 32, 32, 64]
+    batch_size: 512
+    nb_epoch: 50
+    l2_regularizer: 0.1
+    device: 2

@@ -1,0 +1,24 @@
+Base:
+    dataset: "wadi"
+    data_root: ../data/WADI/
+    model_root: "./benchmark_exp_details"
+    benchmark_dir: "./benchmark_results"
+    train_postfix: "train.pkl"
+    test_postfix: "test.pkl"
+    test_label_postfix: "test_label.pkl"
+    dim: 93
+    nrows: null
+    entities:
+        - wadi
+
+
+WADI:
+    valid_ratio: 0
+    entities: ["wadi"]
+
+WADI_test:
+    nrows: 5000
+    valid_ratio: 0
+    entities: ["wadi"]
+
+

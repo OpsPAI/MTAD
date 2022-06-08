@@ -1,0 +1,59 @@
+Base:
+    model_id: omnianomaly
+    normalize: "minmax"
+    reverse_score: True
+
+omnianomaly_SMD:
+    dataset_id: SMD
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3
+omnianomaly_ASD:
+    dataset_id: ASD
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3
+omnianomaly_SWAT:
+    dataset_id: SWAT
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3
+omnianomaly_WADI:
+    dataset_id: WADI
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3
+omnianomaly_SMAP:
+    dataset_id: SMAP
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3
+omnianomaly_MSL:
+    dataset_id: MSL
+    batch_size: 512
+    window_size: 100
+    stride: 1
+    nb_epoch: 10
+    l2_reg: 0.1
+    initial_lr: 1.0e-3
+    device: 3 

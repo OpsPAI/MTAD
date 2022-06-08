@@ -1,0 +1,16 @@
+Basic: 
+    model_id: PCA
+    normalize: "minmax"
+
+PCA_SMD:
+    dataset_id: SMD
+PCA_ASD:
+    dataset_id: ASD
+PCA_SWAT:
+    dataset_id: SWAT
+PCA_WADI:
+    dataset_id: WADI
+PCA_SMAP:
+    dataset_id: SMAP
+PCA_MSL:
+    dataset_id: MSL

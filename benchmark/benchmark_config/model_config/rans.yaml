@@ -1,0 +1,111 @@
+Base:
+    model_id: RANS
+    normalize: "minmax"
+
+
+rans_SMAP_test:
+    dataset_id: SMAP_x2_full
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 1
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 2
+    delta: 0.05
+    batch_size: 512
+    synchronize: True
+    freq_warmup: 1
+    sin_warmup: 1
+    nb_epoch: 1
+
+rans_SMD:
+    dataset_id: SMD
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 5 
+    nb_epoch: 50
+rans_ASD:
+    dataset_id: ASD
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 5 
+    nb_epoch: 50
+rans_SWAT:
+    dataset_id: SWAT
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 5 
+    nb_epoch: 50
+rans_WADI:
+    dataset_id: WADI
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 5 
+    nb_epoch: 50
+rans_SMAP:
+    dataset_id: SMAP
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 5 
+    nb_epoch: 50
+rans_MSL:
+    dataset_id: MSL
+    device: 1 # -1 for cpu, 0 for cuda:0
+    num_workers: 1
+    encoder_layers: 1 
+    decoder_layers: 2 
+    activation: 'relu'
+    output_activation: 'relu'
+    S: 5 
+    delta: 0.05
+    synchronize: True
+    batch_size: 512
+    freq_warmup: 5 
+    sin_warmup: 50
+    nb_epoch: 100
