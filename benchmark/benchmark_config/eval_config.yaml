@@ -1,7 +1,6 @@
 Base:
     metrics: ["f1", "delay"]
     pot_params: {"q": 1.0e-2, "level": [0.99, 0.98, 0.97,0.9,0.8], "dynamic": False}
-    # pot_params: {"q": 1.0e-3, "level": [0.8], "dynamic": False}
     best_params: {"target_metric": "f1", "target_direction": "max"}
     thresholding: ["best", "pot"]
     point_adjustment: [True, False]
