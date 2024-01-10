@@ -1,16 +1,18 @@
 ## MTAD: Tools and Benchmark for Multivariate Time Series Anomaly Detection
 
-This repository is a **M**ultivariate **T**ime Series **A**nomaly **D**etection toolkit named ***MTAD*** with a comprehensive benchmarking protocol and contains state-of-the-art methods with a unified and easy-to-use interface.
+This repository is a **M**ultivariate **T**ime Series **A**nomaly **D**etection toolkit named ***MTAD*** with a comprehensive benchmarking protocol and contains state-of-the-art methods with a unified and easy-to-use interface. We include 15 methods in our repo, which are evaluated on 4 public datasets. 
 
-Multivariate time series are a group of inherently correlated time series. For example, in the area of manufacturing industry and Information Technology (IT) systems, an entity (e.g., a physical machine or software service) is generally equipped with a monitoring mechanism to ensure its security or reliability.
+### Citation
+👋 If you use our tools or benchmarking results in your publication, please cite the following paper.
 
-In contrast to anomaly detection on single time series, extensive recent studies indicate that dependency hidden in MTS is of great importance for accurate anomaly detection, namely, the anomaly detector should consider the MTS as a whole. To this end, state-of-the-art methods have resort to deep learning-based methods to capture the dependency for more accurate anomaly detection.
-
-The ultimate goal of MTSAnomaly is to unify current various evaluation protocols to reveal the best performance of models proposed recently.
-
+>  Jinyang Liu, Wenwei Gu, Zhuangbin Chen, Yichen Li, Yuxin Su, Michael R. Lyu. [MTAD: Tools and Benchmarks for Multivariate Time Series Anomaly Detection](xx).
 
 
 ### Our evaluation protocol
+
+Our evluation protocal can be summarized as the following figure, where we consider different threshold selection strategies and prediction adjustment. We also include the evaluation of delay in our protocol.
+
+![Alt text](doc/mtad_metrics.png)
 
 **Threshold Selection:**
 
