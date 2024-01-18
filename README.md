@@ -5,7 +5,7 @@ This repository is a **M**ultivariate **T**ime Series **A**nomaly **D**etection 
 ### Citation
 👋 If you use our tools or benchmarking results in your publication, please cite the following paper.
 
->  Jinyang Liu, Wenwei Gu, Zhuangbin Chen, Yichen Li, Yuxin Su, Michael R. Lyu. [MTAD: Tools and Benchmarks for Multivariate Time Series Anomaly Detection](https://github.com/OpsPAI/MTAD).
+>  Jinyang Liu, Wenwei Gu, Zhuangbin Chen, Yichen Li, Yuxin Su, Michael R. Lyu. [MTAD: Tools and Benchmarks for Multivariate Time Series Anomaly Detection](https://arxiv.org/pdf/2401.06175.pdf).
 
 
 ### Our evaluation protocol
