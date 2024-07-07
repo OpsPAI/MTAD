@@ -81,7 +81,7 @@ The following datasets are kindly released by different institutions or schools.
 
   > Collected from a large Internet company containing a 5-week-long monitoring KPIs of 28 machines. The meaning for each KPI could be found [here](https://github.com/NetManAIOps/OmniAnomaly/issues/22).
 
-- Soil Moisture Active Passive satellite (**SMAP**) and Mars Science Laboratory rovel (**MSL**) [Download raw datasets⬇️](link)
+- Soil Moisture Active Passive satellite (**SMAP**) and Mars Science Laboratory rovel (**MSL**) [Download raw datasets⬇️](https://github.com/khundman/telemanom)
 
   > They are collected from the running spacecraft and contain a set of telemetry anomalies corresponding to actual spacecraft issues involving various subsystems and channel types.
 
